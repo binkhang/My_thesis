@@ -1,0 +1,30 @@
+		
+- Đối tượng sử dụng khóa: sử dụng cho chung cư tầm trung, giá thành cao.
+- Khóa: có các chức năng:
+	+ Mở khóa bằng nhận diện gương mặt
+	+ Mở khóa bằng vân tay
+	+ Mở khóa bằng mật khẩu số (passcode)
+	+ Có thể lưu trữ lại lịch sử ra/vào cửa (thời gian + hình ảnh), truy xuất được thông qua website (web tĩnh)
+	+ Cảnh báo/thông báo về điện thoại thông qua tin nhắn
+Cụ thể:
+	+ Nhận diện gương mặt: tăng khả năng bảo mật, có thể kết hợp với lại hệ  thống lưu trữ lại lịch sử mở cửa (hình ảnh + thời gian)
+		+ Đối tượng sử dụng: người lớn hoặc trẻ em (> 1m3) (vì module camera được đặt cao khoảng 1m3)
+		+ Điều kiện sử dụng: có ánh sáng (ở mức vừa phải)
+	+ Vân tay: lựa chọn bảo mật khác cho cửa
+		+ Đối tượng sử dụng: trẻ em dưới 1m3 không đủ chiều cao để sử dụng gương mặt hoặc cả người lớn
+		+ Điều kiện sử dụng: cả trời tối hoặc sáng
+	+ Khóa số: giải quyết những trường hợp gương mặt hoặc vân tay không nhận diện được, hoặc trường hợp có thể cho một người khác (người quen) vào nhà của mình, chỉ cần nói mật khẩu cho họ
+		+ Cơ chế xác thực chống nhìn trộm: nhập một chuỗi số ngẫu nhiên, miễn trong chuỗi đó có chứa 4/6 số mật khẩu thì cửa sẽ được mở. Cơ chế này cũng giải quyết được vấn đề khi mình nhập sai mật khẩu, mình có thể tiếp tục nhập mật khẩu đúng mà không cần bấm xóa mật khẩu đã sai đi.
+		+ Cấp mật khẩu dùng một lần thông qua website
+	+ Website: gồm những chức năng:
+		+ Có hệ thống đăng nhập (user/password)
+		+ Tra cứu lịch sử ra/vào cửa: hình ảnh + thời gian chi tiết
+		+ Trích xuất lịch sử thành file .csv
+		+ Cấp mật khẩu số (passcode) một lần
+		+ Trực tiếp video từ camera
+		+ Yêu cầu mở cửa
+		+ Thông báo dung lượng pin của khóa
+		+ Chỉ được truy cập thông qua mạng nội bộ (giới hạn đề tài)
+
+		
+	
