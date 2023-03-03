@@ -25,6 +25,6 @@ Cụ thể:
 		+ Yêu cầu mở cửa
 		+ Thông báo dung lượng pin của khóa
 		+ Chỉ được truy cập thông qua mạng nội bộ (giới hạn đề tài)
-
+oke
 		
 	
